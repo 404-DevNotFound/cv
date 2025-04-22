@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin : 0; 
+ }
+
+.left-contain{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: #595959;
+}
+
+.contact{
+    position: absolute;
+    top :100px;
+    text-align: center;
+}
+
+.photo{
+    width : 50%;
+    border-radius: 50%;
+    border: 5px solid #F2F2F2;
+}
+
+.btn{
+    width: 50%;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: #262626;
+    color: #F2F2F2;
+    transition: 1s;
+}
+.right-contain{
+    position: absolute;
+    left: 400px;
+}
+.nav-bar{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.list-menu{
+    float: right;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    color:#262626 ;
+}
+.title{
+    font-style: italic;
+    font-size: 1.3rem;
+}
+.menu{
+    font-size:1.1rem;
+    padding:0 15px;
+}
+#profile{
+    padding-top:100px;
+    padding-left: 100px;
+}
+#about{
+    padding-top:100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#experience{
+    padding-top:250px;
+    padding-left: 100px;
+}
+#certification{
+    padding-top:250px;
+    padding-left: 100px;
+}
+#contact{
+    padding-top:250px;
+    padding-left: 100px;
+}
+
+#footer{
+    padding-top: 250px;
+    text-align: center;
+}
+
+p,li{
+    line-height: 200%;
+}
